@@ -4,14 +4,14 @@ Console.Write("Введите число: ");
 int num = int.Parse(Console.ReadLine());
 
 
-int FindMulNumbers (int number)
+int FindFacNumbers (int number)
 {
-    int mul = 1;
+    int fac = 1;
     for (int i = 1; i <= num; i++)
     {
-        mul = mul * i; 
+        fac = fac * i; 
     }
-    return mul;
+    return fac;
 }
-int result = FindMulNumbers(num);
+int result = FindFacNumbers(num);
 Console.WriteLine($"Произведение чисел от 1 до {num} = {result}");
