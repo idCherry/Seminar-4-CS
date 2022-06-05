@@ -12,7 +12,7 @@ void PrintArray (int [] collection)
     Console.Write("Массив [");
     while (i < length)
     {
-        collection[i] = new Random().Next(0, $"{arrayLength}");
+        collection[i] = new Random().Next(0, arrayLength);
         Console.Write($"{collection[i]}" + $"  ");
         i++;
     }
